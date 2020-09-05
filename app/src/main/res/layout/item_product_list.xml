@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_list_produit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/tbReference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Réference"></TextView>
+
+    <TextView
+        android:id="@+id/tbQuantite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Quantité"></TextView>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorAdd"
+        android:textStyle="bold"
+        android:text="+"></Button>
+    <Button
+        android:id="@+id/btnSous"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorSous"
+        android:textStyle="bold"
+        android:text="-"></Button>
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorDelete"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:text="X"></Button>
+</LinearLayout>
